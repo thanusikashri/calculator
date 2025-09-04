@@ -1,0 +1,45 @@
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table {
+    background-color: grey;
+    padding: 3%;
+    border-radius:3%;
+    border: 3px solid black;
+}
+
+button {
+    color: aquamarine;
+    background-color: black;
+    border-radius: 40%;
+    width: 70px;
+    height: 70px;
+    color:white;
+    font-size: 18px;
+}
+
+.Display {
+    width: 98%;
+    height: 50px;
+    background-color: gainsboro;
+    border-radius: 15px;
+    text-align: right;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: lightslategray;
+}
+
+body{
+    background-image: url("img3/img3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
